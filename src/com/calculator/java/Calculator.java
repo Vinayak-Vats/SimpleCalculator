@@ -3,8 +3,6 @@
  */
 package com.calculator.java;
 import java.util.Scanner;
-
-
 /**
  * @author Vinayak
  *This is a calculator created for you to make your day to day calculations easy
@@ -28,18 +26,6 @@ public class Calculator {
 		double newTwo= Double.parseDouble(numTwo);
 		double numThree=(newOne+newTwo);				 //Assigning new variable of type double to store added value of numThree & numFour 
 		
-		System.out.println("Result Obtained: "+ numThree+"\nThank You for using my calculator");
-		
-		
-		
-		
-
-
-		
-		
-		
-		
-		
-		
+		System.out.println("Result Obtained: "+ numThree+"\nThank You for using my calculator");					
 	}
 }
